@@ -1,0 +1,134 @@
+{
+  "publicTime": "2022-07-21T17:00:00+09:00",
+  "copyright": {
+    "image": {
+      "link": "https://weather.tsukumijima.net/",
+      "width": 120,
+      "title": "天気予報 API（livedoor 天気互換）",
+      "url": "https://weather.tsukumijima.net/logo.png",
+      "height": 120
+    },
+    "provider": [{
+      "note": "気象庁 HP にて配信されている天気予報を JSON データへ編集しています。",
+      "link": "https://www.jma.go.jp/jma/",
+      "name": "気象庁 Japan Meteorological Agency"
+    }],
+    "link": "https://weather.tsukumijima.net/",
+    "title": "(C) 天気予報 API（livedoor 天気互換）"
+  },
+  "link": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=017000",
+  "publishingOffice": "函館地方気象台",
+  "description": {
+    "publicTime": "2022-07-21T16:36:00+09:00",
+    "bodyText": "　北海道付近は、日本の東の高気圧の圏内ですが、２２日は前線を伴った低気圧が日本海から近づくでしょう。\n\n　渡島・檜山地方の２１日１５時の天気は、晴れとなっています。\n\n　２１日夜は、晴れのち曇りでしょう。\n\n　２２日は、曇りのち雨の見込みです。\n\n　海の波の高さは、２１日夜は１メートルでしょう。２２日は、１メートルのち１．５メートルとやや高くなる見込みです。",
+    "publicTimeFormatted": "2022/07/21 16:36:00",
+    "text": "　北海道付近は、日本の東の高気圧の圏内ですが、２２日は前線を伴った低気圧が日本海から近づくでしょう。\n\n　渡島・檜山地方の２１日１５時の天気は、晴れとなっています。\n\n　２１日夜は、晴れのち曇りでしょう。\n\n　２２日は、曇りのち雨の見込みです。\n\n　海の波の高さは、２１日夜は１メートルでしょう。２２日は、１メートルのち１．５メートルとやや高くなる見込みです。",
+    "headlineText": ""
+  },
+  "publicTimeFormatted": "2022/07/21 17:00:00",
+  "location": {
+    "area": "北海道",
+    "prefecture": "北海道",
+    "city": "函館",
+    "district": "渡島地方"
+  },
+  "title": "北海道 函館 の天気",
+  "forecasts": [
+    {
+      "date": "2022-07-21",
+      "dateLabel": "今日",
+      "image": {
+        "width": 80,
+        "title": "晴のち曇",
+        "url": "https://www.jma.go.jp/bosai/forecast/img/110.svg",
+        "height": 60
+      },
+      "temperature": {
+        "min": {
+          "celsius": null,
+          "fahrenheit": null
+        },
+        "max": {
+          "celsius": null,
+          "fahrenheit": null
+        }
+      },
+      "detail": {
+        "weather": "晴れ　夜遅く　くもり　所により　夜遅く　霧",
+        "wave": "１メートル",
+        "wind": "南の風　後　北東の風"
+      },
+      "chanceOfRain": {
+        "T12_18": "--%",
+        "T18_24": "10%",
+        "T00_06": "--%",
+        "T06_12": "--%"
+      },
+      "telop": "晴のち曇"
+    },
+    {
+      "date": "2022-07-22",
+      "dateLabel": "明日",
+      "image": {
+        "width": 80,
+        "title": "曇のち雨",
+        "url": "https://www.jma.go.jp/bosai/forecast/img/212.svg",
+        "height": 60
+      },
+      "temperature": {
+        "min": {
+          "celsius": "19",
+          "fahrenheit": "66.2"
+        },
+        "max": {
+          "celsius": "26",
+          "fahrenheit": "78.8"
+        }
+      },
+      "detail": {
+        "weather": "くもり　夕方　から　雨",
+        "wave": "１メートル　後　１．５メートル",
+        "wind": "東の風　渡島西部　では　北東の風　やや強く"
+      },
+      "chanceOfRain": {
+        "T12_18": "50%",
+        "T18_24": "60%",
+        "T00_06": "0%",
+        "T06_12": "10%"
+      },
+      "telop": "曇のち雨"
+    },
+    {
+      "date": "2022-07-23",
+      "dateLabel": "明後日",
+      "image": {
+        "width": 80,
+        "title": "曇時々雨",
+        "url": "https://www.jma.go.jp/bosai/forecast/img/202.svg",
+        "height": 60
+      },
+      "temperature": {
+        "min": {
+          "celsius": "20",
+          "fahrenheit": "68"
+        },
+        "max": {
+          "celsius": "25",
+          "fahrenheit": "77"
+        }
+      },
+      "detail": {
+        "weather": "くもり　時々　雨",
+        "wave": "２メートル　後　２．５メートル",
+        "wind": "北東の風　後　北の風"
+      },
+      "chanceOfRain": {
+        "T12_18": "70%",
+        "T18_24": "70%",
+        "T00_06": "70%",
+        "T06_12": "70%"
+      },
+      "telop": "曇時々雨"
+    }
+  ]
+}
